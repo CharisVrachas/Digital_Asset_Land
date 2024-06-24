@@ -1,0 +1,58 @@
+/* General */
+.footer-background {
+  background-color: #8418CB;
+  background-image: radial-gradient(650px circle at 0% 0%,
+    #C62FC0 15%,
+    #8418CB 35%,
+    transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
+    #C62FC0 15%,
+    #8418CB 35%,
+    transparent 100%);
+}
+
+.socials svg {
+  color: #F5F5F5;
+  transition: color 0.3s ease;
+}
+
+.socials svg:hover {
+  color: #C62FC0;
+  cursor: pointer;
+}
+
+.jimbo > img {
+  border-radius: 50%;
+}
+
+.copyright p {
+  color: #F5F5F5;
+}
+
+.copyright a {
+  color: #252034;
+}
+
+.copyright a:hover {
+  color: #1E1A2D;
+}
+
+/* Mobile first */
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+}
+
+.socials svg {
+  height: 35px;
+  width: 35px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}

@@ -1,6 +1,6 @@
 <?php
   // Define the base path
-  $base_path = 'Digital_Asset_Land';
+  $base_path = 'https://charisvrachas.github.io/Digital_Asset_Land/';
 
   // Get the requested URL path
   $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
